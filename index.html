@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+  </head>
+  <body>
+    <div class="w3-top">
+      <div
+        class="w3-bar w3-white w3-padding w3-card"
+        style="letter-spacing: 4px"
+      >
+        <a href="#home" class="w3-bar-item w3-button">Wilson</a>
+        <div class="w3-right w3-hide-small">
+          <p>Survey</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Survey -->
+    <div class="w3-container w3-padding-64" id="contact">
+      <h1>Product Survey</h1>
+      <br />
+      <p class="w3-text-blue-grey w3-large">
+        <b></b>
+      </p>
+      <form action="/action_page.php" target="_blank">
+        <p>
+          <input
+            class="w3-input w3-padding-16"
+            type="text"
+            placeholder="FirstName"
+            required
+            name="Name"
+          />
+        </p>
+        <p>
+          <input
+            class="w3-input w3-padding-16"
+            type="text"
+            placeholder="LastName"
+            required
+            name="Name"
+          />
+        </p>
+        <p>
+          <input
+            class="w3-input w3-padding-16"
+            type="text"
+            placeholder="Email"
+            required
+            name="email"
+          />
+        </p>
+        <p>
+          <input
+            class="w3-input w3-padding-16"
+            type="number"
+            placeholder="Age"
+          />
+        </p>
+        <div id="Question1">
+          <p>1.All in all,how would you rate ClashtennisPH</p>
+          <form action="/action_page.php">
+            <input type="checkbox" />
+            <label for="vehicle1">Excellent</label><br />
+            <input type="checkbox" />
+            <label for="vehicle2">Good</label><br />
+            <input type="checkbox" />
+            <label for="vehicle3">Average</label><br />
+            <input type="checkbox" />
+            <label for="vehicle3">Poor</label><br />
+            <input type="checkbox" />
+            <label for="vehicle3">Very Poor</label><br />
+          </form>
+        </div>
+        <div id="Question2">
+          <p>2.Rate your overall satisfaction with the Product</p>
+          <form action="/action_page.php">
+            <input type="checkbox" />
+            <label for="vehicle1">Extremely Satisfied</label><br />
+            <input type="checkbox" />
+            <label for="vehicle2">Satisfied</label><br />
+            <input type="checkbox" />
+            <label for="vehicle3">Neutral</label><br />
+            <input type="checkbox" />
+            <label for="vehicle3">Dissatisfied</label><br />
+            <input type="checkbox" />
+            <label for="vehicle3">Very Dissatisfied</label><br />
+          </form>
+        </div>
+        <p>
+          <input
+            class="w3-input w3-padding-16"
+            type="text"
+            placeholder="Any comments or suggestions?"
+            required
+            name="Message"
+          />
+        </p>
+        <p>
+          <button class="w3-button w3-light-grey w3-section" type="submit">
+            SEND MESSAGE
+          </button>
+        </p>
+      </form>
+    </div>
+  </body>
+</html>
